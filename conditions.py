@@ -11,7 +11,7 @@ sale_amount=float(input("please enter the sales amount"))
 
 if sale_amount>actual_cost:
     amount= sale_amount-actual_cost
-    print("the total profit", format(amount))
+    print("the total profit", amount)
 else: 
     print("no profit")
     
@@ -36,6 +36,31 @@ if age>=16 and name=="uma":
     print("you are allowed to enter the school")
 else:
     print("you are not allowed to enter the school")
+
+#assignment 7
+a=10
+b=12
+c=0
+
+if a and b and c:
+    print("all the numbers have boolean value as true")
+
+elif a>0 or b>0:
+    print("either of the number is greater than 0")
+
+elif b>0 or c==0:
+    print("uma either of the number is greater than 0")
+
+else:
+    print("all the numbers have boolean value as false")
+
+#assignment 8
+a=10
+b=12
+c=12
+print(not(a==b))
+
+
 
 
 
