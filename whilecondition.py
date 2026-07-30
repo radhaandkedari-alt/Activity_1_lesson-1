@@ -36,3 +36,4 @@ while num>0:
         print("the number is even")
     else:
         print("the number is odd")
+    num=num+1
