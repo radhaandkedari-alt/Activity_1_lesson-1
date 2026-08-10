@@ -17,3 +17,7 @@ for i in string:
 
 print("the original string is:", string)
 print("the reversed string is:", string2)
+
+#assignment 3
+for row in range (10):
+    print("the value of row is:", row+1)
