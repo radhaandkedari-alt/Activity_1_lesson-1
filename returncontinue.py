@@ -37,9 +37,10 @@ age = int(input("enter your age:"))
 result = check_age(age)
 print(result)
 
-
-    
-    
-    
-
-
+#assignment 6: adding 2 numbers
+def add_numbers(num1,num2):
+    return num1 + num2
+num1 = int(input("Enter your first number:"))
+num2 = int(input("Enter your second number:"))
+result = add_numbers(num1, num2)
+print("The sum is:", result)
