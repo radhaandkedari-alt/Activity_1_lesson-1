@@ -21,3 +21,14 @@ print(slice2)
 #assignment 2
 colors=("blue", "red", "red", "yellow", "red")
 print(colors.count("red"))
+slice3=colors[1:4]
+print(slice3)
+
+#nested tuple
+student=(
+("uma", 14, "blue"),
+("ram", 20, "red")
+)
+print(student)
+print("The second student's name:", student[1][0])
+
