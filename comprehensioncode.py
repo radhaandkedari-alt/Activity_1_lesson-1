@@ -12,4 +12,7 @@ squared_nums = list(map(square, nums))
 print(squared_nums)
 
 #create a list using range
+list1 = list(range(1, 11))
+print("The value of list1 is:", list1)
+
 
