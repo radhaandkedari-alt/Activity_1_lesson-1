@@ -11,3 +11,6 @@ print("Woo is also a:", p2.species)
 
 print(p1.name, "is", p1.age, "years old")
 print(p2.name, "is", p2.age, "years old")
+
+#create a class called book with attributes title, author, and price. Create 3 book objects and print their details
+clas
