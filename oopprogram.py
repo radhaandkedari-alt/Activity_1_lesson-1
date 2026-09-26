@@ -8,7 +8,7 @@ class IOString():
     def print_string(self):
         print(self.str1.upper())
 
-str1 = IOString()
-str1.get_string()
-str1.print_string()
- 
+a = IOString()
+a.get_string()
+a.print_string() 
+
