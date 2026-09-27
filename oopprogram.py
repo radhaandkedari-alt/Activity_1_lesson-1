@@ -11,4 +11,3 @@ class IOString():
 a = IOString()
 a.get_string()
 a.print_string() 
-
