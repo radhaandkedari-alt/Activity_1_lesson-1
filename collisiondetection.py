@@ -10,7 +10,7 @@ FONT_SIZE = 72
 pygame.init()
 
 # Load and transform the background image
-background_image = pygame.transform.scale(pygame.image.load("abc.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
+background_image = pygame.transform.scale(pygame.image.load("abc.png"), (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Load font once at the beginning
 font = pygame.font.SysFont("Times New Roman", FONT_SIZE)
@@ -73,7 +73,7 @@ while running:
             won = True
 
     # Drawing
-    screen.blit(background_image, (0, 0))
+    screen.blit(None, (0, 0))
     all_sprites.draw(screen)
 
     # Display win message
@@ -85,4 +85,4 @@ while running:
     pygame.display.flip()
     clock.tick(90)
 
-pygame.quit()
+pygame.quit()       
